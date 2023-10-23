@@ -36,7 +36,63 @@ The stack is implemented using a dynamically allocated array. Here's a brief ove
 
 - **Size Operation**: Returns the number of elements currently in the stack.
 
-## Implementations
+### Algorithm
+Data:
+  - data: An array to store elements
+  - top: A variable to keep track of the top element
+  - capacity: Maximum number of elements the stack can hold
+
+Functions:
+  - Constructor Stack(capacity): Initialize the stack with the given capacity.
+  - Destructor ~Stack(): Release allocated memory.
+  - push(element): Add an element to the top of the stack.
+  - pop(): Remove and return the top element from the stack.
+  - peek(): Return the top element without removing it.
+  - isEmpty(): Check if the stack is empty.
+  - size(): Return the number of elements in the stack.
+
+Algorithm Steps:
+
+1. Create a class `Stack` with the following private data members:
+   - int* data: An array to store elements.
+   - int top: A variable to keep track of the top element.
+   - int capacity: Maximum number of elements the stack can hold.
+
+2. Implement the constructor `Stack(capacity)`:
+   - Allocate memory for the stack data array of size `capacity`.
+   - Initialize `top` to -1, indicating an empty stack.
+
+3. Implement the destructor `~Stack()`:
+   - Deallocate the memory for the data array to prevent memory leaks.
+
+4. Implement the `push(element)` method:
+   - Check if the stack is full (top == capacity - 1). If it is, return an error (overflow).
+   - Increment `top` by 1.
+   - Add the `element` to `data[top]`.
+
+5. Implement the `pop()` method:
+   - Check if the stack is empty (top == -1). If it is, return an error (underflow).
+   - Retrieve the element at the top of the stack (data[top]).
+   - Decrement `top` by 1.
+
+6. Implement the `peek()` method:
+   - Check if the stack is empty (top == -1). If it is, return an error (stack is empty).
+   - Return the element at the top of the stack (data[top]).
+
+7. Implement the `isEmpty()` method:
+   - Return true if `top` is -1, indicating an empty stack. Otherwise, return false.
+
+8. Implement the `size()` method:
+   - Return `top + 1` to indicate the number of elements in the stack.
+
+9. Provide a sample main program to demonstrate how to create a stack object, perform push, pop, and peek operations, and check if the stack is empty or retrieve its size.
+
+10. Finally, handle memory cleanup in the destructor to avoid memory leaks.
+
+The above algorithm outlines the basic structure and operations for a stack data structure in C++. You can now implement these operations in C++ code based on this algorithm.
+
+
+## Output
 
 This repository includes C++ implementations of linked lists for each type. You can explore the code to see how linked lists are implemented and how they can be used in your applications.
 
