@@ -36,38 +36,11 @@ The stack is implemented using a dynamically allocated array. Here's a brief ove
 
 - **Size Operation**: Returns the number of elements currently in the stack.
 
-## Algorithm
+## Implementations
 
-### Stack Initialization
+This repository includes C++ implementations of linked lists for each type. You can explore the code to see how linked lists are implemented and how they can be used in your applications.
 
-```cpp
-class Stack {
-    int* data;
-    int top;
-    int capacity;
-public:
-    Stack(int size);
-    // Constructor to initialize the stack with the given size.
+![Screenshot 2023-10-23 144549](https://github.com/Arjun378/Cpp-Stacks/assets/74441883/5475e7f6-23e3-4178-ac8c-79572539184e)
 
-    ~Stack();
-    // Destructor to release allocated memory.
 
-    void push(int element);
-    // Push an element onto the stack.
-
-    int pop();
-    // Pop the top element from the stack.
-
-    int peek();
-    // Return the top element.
-
-    bool isEmpty();
-    // Check if the stack is empty.
-
-    int size();
-    // Return the number of elements in the stack.
-}
-## Output
-![Screenshot 2023-10-23 144549](https://github.com/Arjun378/Cpp-Stacks/assets/74441883/2df5aa9c-b418-4d2c-a493-3f05bf7d5129)
-
-![Screenshot 2023-10-23 144611](https://github.com/Arjun378/Cpp-Stacks/assets/74441883/02b1773a-d1ff-4df1-9e85-4cf78abd8dfd)
+![Screenshot 2023-10-17 152037](https://github.com/Arjun378/Cpp-Linked-Lists/assets/74441883/2e90f547-de69-4372-9b04-ee9fdae87c67)
