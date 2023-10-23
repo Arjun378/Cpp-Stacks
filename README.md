@@ -67,6 +67,7 @@ public:
     int size();
     // Return the number of elements in the stack.
 };
-
+## Output
 ![Screenshot 2023-10-23 144549](https://github.com/Arjun378/Cpp-Stacks/assets/74441883/2df5aa9c-b418-4d2c-a493-3f05bf7d5129)
 
+![Screenshot 2023-10-23 144611](https://github.com/Arjun378/Cpp-Stacks/assets/74441883/02b1773a-d1ff-4df1-9e85-4cf78abd8dfd)
