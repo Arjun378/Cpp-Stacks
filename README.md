@@ -68,8 +68,5 @@ public:
     // Return the number of elements in the stack.
 };
 
+![Screenshot 2023-10-23 144549](https://github.com/Arjun378/Cpp-Stacks/assets/74441883/2df5aa9c-b418-4d2c-a493-3f05bf7d5129)
 
-
-![Screenshot 2023-10-23 144549](https://github.com/Arjun378/Cpp-Stacks/assets/74441883/b68ecf55-c67a-4661-9d73-cdccb3515f5a)
-
-![Screenshot 2023-10-23 144611](https://github.com/Arjun378/Cpp-Stacks/assets/74441883/ba09b84c-bdb2-4be7-8f18-c6150f92844f)
